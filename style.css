@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.colors {
+    height: 7rem;
+    width: 7rem;
+    border: 2px solid black;
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+
+#grey {
+    background-color: grey;
+}
+
+#white {
+    background-color: white;
+}
+#blue {
+    background-color: blue;
+}
+#yellow {
+    background-color: yellow;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 3rem;
+    font-size: 1.7rem;
+}
